@@ -1,0 +1,9 @@
+{ "name" : "couchcache"
+, "description" : "Caching reverse proxy for CouchDB."
+, "version" : "0.2.0"
+, "author" : "Mikeal Rogers <mikeal.rogers@gmail.com>"
+, "directories" :
+  { "lib" : "lib" }
+, "main" : "./lib/proxy"
+, "bin" : {"couchcache":"./lib/bin.js"}
+}
