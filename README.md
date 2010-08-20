@@ -6,7 +6,7 @@ CouchCache goes a step further, it listens to the _changes feed on any database 
 
 ## Warning
 
-This is alpha, you probably don't want to use this in production.
+This is alpha, you probably don't want to use this in production. No REALLY, don't use this in production, it's still quite experimental.
 
 ## Installation
 
