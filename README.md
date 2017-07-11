@@ -1,5 +1,7 @@
 ## Description
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikeal/couchcache.svg)](https://greenkeeper.io/)
+
 CouchDB is awesome! One of the best parts of CouchDB is that it's all HTTP so you just need to use a reverse caching proxy that does etag checking to serve as an efficient cache.
 
 CouchCache goes a step further, it listens to the _changes feed on any database it caches and intelligently invalidates effected caches when the documents change. This should allow CouchCache to be the most efficient cache for CouchDB with the lowest latency. 
